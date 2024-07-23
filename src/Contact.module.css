@@ -1,0 +1,22 @@
+.contactDataBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9dbda;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.contactDataBox p {
+    display: flex;
+    align-items: center;
+}
+
+.contactDataBox p img {
+    margin-right: 10px;
+}
+
+.removeBtn {
+    all: unset;
+    cursor: pointer;
+}

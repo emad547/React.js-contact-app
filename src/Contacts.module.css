@@ -1,0 +1,73 @@
+.form {
+  width: 100%;
+  box-shadow: 2px 2px 10px #c0c0c0;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.inputBox input {
+  width: 48%;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #767676;
+  padding: 7px 10px;
+  color: #4141cb;
+}
+
+.errorBox {
+  font-size: 1rem;
+  color: #f23b3b;
+  background-color: #edc4c4;
+  padding: 10px;
+  border-radius: 7px;
+  height: 38px;
+  visibility: hidden;
+  margin: 1.5rem 0;
+}
+
+.errorBox.active {
+  visibility: visible;
+}
+
+.addContactBtn {
+  width: 100%;
+  font-size: 1rem;
+  padding: 7px 0;
+  background-color: #4141cb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contactsBox h2 {
+  color: #4141cb;
+}
+
+.contactsContainer {
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.contactsContainer > div:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+- set className to the all elems in header.module.css
+- why [.module.css] files effects to ather files?
+*/
